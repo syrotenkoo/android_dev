@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             binding.state.setTextColor(Color.parseColor("#0000FF"))
         } else {
             binding.state.text = "Пассажиров слишком много!"
-            binding.state.setTextColor(Color.parseColor("FF0000"))
+            binding.state.setTextColor(Color.parseColor("#FF0000"))
         }
     }
 }
