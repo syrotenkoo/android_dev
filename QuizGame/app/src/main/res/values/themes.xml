@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/indigo</item>
+        <item name="android:colorPrimaryDark">@color/dark_indigo</item>
+        <item name="android:colorBackground">@color/yellow</item>
+        <item name="android:colorAccent">@color/bright_yellow</item>
+    </style>
+
+    <style name="Theme.QuizGame" parent="Base.Theme.QuizGame" />
+</resources>
