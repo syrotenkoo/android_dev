@@ -10,10 +10,12 @@ import com.example.customview.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         val binding = ActivityMainBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
-        binding.upperString.text = "Верхняя строка"
-        binding.lowerString.text = "Нижняя строка"
+        binding.postView.setUpperString("Верхняя строка, настроенная из кода")
+        binding.postView.setLowerString("Нижняя строка, настроенная из кода")
     }
 }

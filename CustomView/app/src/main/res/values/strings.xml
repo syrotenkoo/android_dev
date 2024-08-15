@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="upper_string">Upper string</string>
+    <string name="lower_string">Lower string</string>
 </resources>

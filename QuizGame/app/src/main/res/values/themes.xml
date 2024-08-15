@@ -7,5 +7,10 @@
         <item name="android:colorAccent">@color/bright_yellow</item>
     </style>
 
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000</item>
+        <item name="android:font" tools:targetApi="26">@font/opensans_light</item>
+    </style>
+
     <style name="Theme.QuizGame" parent="Base.Theme.QuizGame" />
 </resources>
